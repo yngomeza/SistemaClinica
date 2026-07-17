@@ -3,22 +3,10 @@
 
 #include "estructuras.h"
 
-//Menú del módulo citas
-void menuCitas();
-
-//Registrar una nueva cita
-void registrarCita();
-
-//Mostrar citas registradas
+void programarCitas();
 void mostrarCitas();
-
-//Buscar una cita
-void buscarCita();
-
-//Ordenar citas por fecha
+void buscarCitas();
 void ordenarCitas();
-
-//Manejo del archivo citas.dat
 void guardarCitas();
 void cargarCitas();
 
