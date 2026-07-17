@@ -3,22 +3,12 @@
 
 #include "estructuras.h"
 
-//Menú del módulo pacientes
+// Funciones principales del m�dulo de pacientes
 void menuPacientes();
-
-//Registro de pacientes
 void registrarPaciente();
-
-//Mostrar todos los pacientes
 void mostrarPacientes();
-
-//Buscar paciente por ID o DNI
 void buscarPaciente();
-
-//Ordenar pacientes
 void ordenarPacientes();
-
-//Manejo del archivo pacientes.dat
 void guardarPacientes();
 void cargarPacientes();
 
